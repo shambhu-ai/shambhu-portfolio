@@ -1,4 +1,4 @@
-# Shambhu Patil — MBA Portfolio
+  # Shambhu Patil — MBA Portfolio
 
 A production-ready, full-stack portfolio built with **Vue 3 · Vite · Pinia · Tailwind CSS v4 · Supabase**.
 
@@ -136,7 +136,7 @@ Open **`vite.config.js`** and add the `base` option:
 
 ```js
 export default defineConfig({
-  base: '/<your-repo-name>/',   // ← add this line
+  base: '/shambhu-portfolio/',   // ← add this line
   plugins: [vue(), tailwindcss()],
 })
 ```
