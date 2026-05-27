@@ -4,8 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   base: '/shambhu-portfolio/',
-  plugins: [
-    vue(),
-    tailwindcss(),
-  ],
+  plugins: [vue(), tailwindcss()],
 })
